@@ -56,7 +56,7 @@ namespace net_calculator_testNUnit
                 float divisione = Calcolatrice.Divide(num1, num2);
 
                 //Assert.NotZero(num2, $"Impossibile dividere per zero.");
-                Assert.AreEqual(risultato, divisione, $"Il risultato della divisione deve essere {risultato}");
+                Assert.AreEqual(risultato, divisione, $"Il result della divisione deve essere {risultato}");
 
             }
             catch (Exception e)
